@@ -468,6 +468,26 @@ body {
             max-width: 100%;
         }
     }
+    .image-container {
+        position:relative;
+        display: inline-block;
+    }
+    .image-container img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        font-family: "Itim";
+        font-size: 30pt;
+        font-size: clamp(0.78125rem, -0.1453rem + 2.4708vw, 2.5rem);
+        color: #F0FCFF;
+        text-align: center;
+        opacity: 0;
+    }
     /*Contact Info CSS*/
     h2 {
         font-family: "Itim";
@@ -650,6 +670,9 @@ body {
     }
     .imgbutton:hover {
         filter:brightness(30%)
+    }
+    .image-container:hover .overlay-text {
+        opacity: 1;
     }
     #submit:hover {
         background-color: #F0FCFF;
