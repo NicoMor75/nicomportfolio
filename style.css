@@ -209,7 +209,7 @@ body {
     footer p {
         margin: 0;
     }
-    @media screen and (width < 600px) {
+    @media screen and (width < 601px) {
         header {
             padding: 1rem 0 1rem 1rem;
         }
