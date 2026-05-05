@@ -49,6 +49,37 @@ body {
         text-decoration: none;
         color: black;
     }
+    .Fortunato {
+        display: flex;
+        max-width: 100%;
+        height: 30rem;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Fortunato img {
+        max-height: 50%;
+        max-width: auto;
+    }
+    .fortbutton {
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+    }
+    #fortunatobutton {
+        background-color: #3BCEF7;
+        font-family: "Itim";
+        font-size: 30pt;
+        font-size: clamp(0.78125rem, -0.1453rem + 2.4708vw, 2.5rem);
+        text-align: center;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        color: #ffffff;
+        margin-top: -10rem;
+        width: 25%;
+    }
+    #videofort {
+        height: 40rem;
+        margin: 0;
+    }
     .Work-CarouselAll {
         background-color: black;
     }
@@ -209,12 +240,9 @@ body {
     footer p {
         margin: 0;
     }
-    @media screen and (width < 601px) {
+    @media screen and (width < 600px) {
         header {
             padding: 1rem 0 1rem 1rem;
-        }
-        .logoimg {
-            display: none;
         }
         .big-menu {
             display: none;
@@ -342,6 +370,9 @@ body {
     .degree p {
         margin: 0;
     }
+    #LCAttendance {
+        text-align: right;
+    }
     .EdandExp ul {
         font-family: "Itim";
         font-size: 30pt;
@@ -437,8 +468,11 @@ body {
     .work-footer {
         margin: 0;
     }
-    @media screen and (width < 600px) {
+    @media screen and (width < 601px) {
         menu {
+            display: none;
+        }
+        .logoimg {
             display: none;
         }
         .mobileheadings {
@@ -665,6 +699,24 @@ body {
     .shellopenings, .shelltextures {
         display: flex;
         max-width: 45%;
+    }
+    /*Fortunato*/
+    .Fortunatogallery {
+        margin-right: 2rem;
+        max-width: 50%;
+    }
+    .Fortunatogallery img {
+        max-width: 100%;
+    }
+    .Fortunatofull {
+        display: flex;
+        justify-content: center;
+    }
+    .Fortunatofull p {
+        margin-left: 0;
+        font-size: 28pt;
+        font-size: clamp(0.729375rem, -0.1353rem + 2.3058vw, 2.333333333125rem);
+        font-family: "Itim";
     }
     /*hover states*/
     a:hover {
